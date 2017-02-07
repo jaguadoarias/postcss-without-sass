@@ -1,0 +1,35 @@
+/* Footer */
+
+.footer {
+  height: auto;
+  display: flex;
+  background: grey;
+  color: white;
+  padding: 2rem;
+
+  @mixin element list {
+    column-count: 6;
+    column-width: 150px;
+    column-gap: 40px;
+    column-rule: 1px solid lightblue;
+    list-style: none;
+  }
+
+  @media (--mq-small) {
+    background-color: pink;
+  }
+
+  @media (--mq-medium) {
+    background-color: green;
+  }
+
+  @media (--mq-large) {
+    background-color: black;
+  }
+
+  @media (--mq-small) and (--mq-portrait){
+    border-bottom: 3px solid;
+  }
+
+
+}

@@ -1,0 +1,26 @@
+/*---------------------------------------------
+ * Import example
+ *---------------------------------------------- */
+@import "utilities/variables.css";
+
+/*---------------------------------------------
+* Utilities
+*---------------------------------------------- */
+@import "utilities/config.css";
+@import "utilities/helpers.css";
+@import "utilities/mixins.css";
+
+/*---------------------------------------------
+* Base
+*---------------------------------------------- */
+@import "base/normalize.css";
+@import "base/typography.css";
+
+/*---------------------------------------------
+* Components
+*---------------------------------------------- */
+@import "components/main.css";
+@import "components/header.css";
+@import "components/footer.css";
+@import "components/heading.css";
+@import "components/icon.css";

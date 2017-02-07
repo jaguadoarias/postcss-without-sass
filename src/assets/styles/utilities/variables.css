@@ -1,0 +1,31 @@
+/*---------------------------------------------
+ * Custom properties
+ *---------------------------------------------- */
+:root {
+  --color: #f2b806;
+  --font-base: lato, sans-serif;
+  --font-bold: lato-bold, sans-serif;
+  --font-light: lato-light, sans-serif;
+  /*---------------------------------------------
+   * Colors
+   *---------------------------------------------- */
+  /*Greyscale*/
+  --black: black;
+  --opaque: #111;
+  --darker: #222;
+  --dark: #313131;
+  --neutraler: #444;
+  --neutral: #666;
+  --pale: #999;
+  --bare: #ccc;
+  --whiter: #f3f3f3;
+}
+
+/* CUSTOM MEDIA */
+
+@custom-media --mq-small (min-width: 20em);
+@custom-media --mq-medium (min-width: 30em);
+@custom-media --mq-large (min-width: 64em);
+@custom-media --mq-xlarge (min-width: 80em);
+@custom-media --mq-landscape (orientation: landscape);
+@custom-media --mq-portrait (orientation: portrait);

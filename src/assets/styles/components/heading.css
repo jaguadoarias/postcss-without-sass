@@ -1,0 +1,17 @@
+h1 {
+  color: var(--darker);
+  display: flex;
+}
+
+
+.box{
+  @mixin box;
+  @extend flex;
+  background-color: grey;
+  color: #fff;
+
+  @mixin modifier secondary {
+    background-color: red;
+  }
+
+}

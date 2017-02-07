@@ -1,0 +1,34 @@
+/* BEM Selectors */
+
+@define-mixin element $element{
+  &__$(element){
+    @mixin-content;
+  }
+}
+@define-mixin modifier $modifier{
+  &--$(modifier){
+    @mixin-content;
+  }
+}
+
+
+/* Mixins */
+
+
+@define-mixin box {
+  width: 300px;
+  height: 300px;
+  @extend flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Extends */
+
+@define-extend green {
+    background: green;
+}
+@define-extend flex {
+    display: flex;
+}

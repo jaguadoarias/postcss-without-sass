@@ -1,0 +1,30 @@
+/* Header */
+
+.header {
+  height: 120px;
+  padding: 1em;
+  font-family: serif;
+
+  @extend flex;
+  justify-content: center;
+
+  background: var(--neutral);
+
+
+  @media (--mq-small) {
+    background-color: var(--neutral);
+  }
+
+  @media (--mq-medium) {
+    background-color: var(--pale);
+  }
+
+  @media (--mq-large) {
+    background-color: var(--bare);
+  }
+
+  @media (--mq-small) and (--mq-portrait){
+    border-bottom: 3px solid;
+  }
+
+}

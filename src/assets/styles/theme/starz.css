@@ -1,0 +1,23 @@
+/* COLORS */
+
+$base-color: #0d0d0d;
+$brand-color: #;
+$secondary-color: orange;
+$color-brand: #fff;
+
+
+/* SPACES */
+
+$spacing: 10px;
+$spacing-half: ($spacing/ 2);
+$spacing-double: ($spacing* 2);
+$spacing-third: ($spacing* 3);
+
+
+/* FONTS */
+
+$font-light: "museo";
+$font-regular: "museo-regular";
+$font-bold: "museo-bold";
+$font-player: "noto_naskh";
+$font-icon: "starz-iconFont";
